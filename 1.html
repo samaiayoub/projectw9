@@ -12,7 +12,7 @@
     body {
       margin: 0;
       font-family: 'Orbitron', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-      background: url('20250731_1528_Vibrant Orange Art_simple_compose_01k1ge1pd3f3n946mbv0a7w6qz (1).png') no-repeat center center fixed;
+      background: url('2backround.png') no-repeat center center fixed;
       background-size: cover;
       display: flex;
       flex-direction: column;
@@ -101,15 +101,10 @@
       padding: 0 20px;
     }
 
-    .hero-text {
-      font-family: 'Rubik Mono One', 'Rampart One', sans-serif;
-      font-size: 48px;
-      font-weight: 900;
-      color: white;
-      max-width: 900px;
-      text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.7);
-      line-height: 1.2;
-      letter-spacing: 1px;
+    .hero-image {
+      max-width: 700px;
+      width: 90%;
+      height: auto;
     }
 
     .actions {
@@ -139,10 +134,10 @@
 </head>
 <body>
   <header>
-    <h1>MindMapper dyal w9</h1>
+    <h1>MindMap w9</h1>
     <div class="menu">
-      <button onclick="alert('kosomk')">My Projects</button>
-      <button onclick="alert('kosom tboun')">Export</button>
+      <button onclick="alert('Feature coming soon')">My Projects</button>
+      <button onclick="alert('Exporting not available yet')">Export</button>
       <button onclick="toggleLanguage()">Language</button>
       <div class="lang-dropdown" id="langDropdown">
         <p>English (selected)</p>
@@ -152,13 +147,11 @@
   </header>
 
   <main>
-    <div class="hero-text">
-      MAKE YOUR THOUGHTS <br> INTO STRUCTURED IDEAS
-    </div>
+    <img src="20250731_2210_Graffiti Text Art_simple_compose_01k1h543fge9ztdh266rw12kjr.png" alt="Graffiti Text" class="hero-image">
     <div class="actions">
       <button onclick="location.href='editor.html'">New Project</button>
-      <button onclick="alert('feature coming soon (its not)')">Import Project</button>
-      <button onclick="alert('Templates coming soon (no)')">Use a Template</button>
+      <button onclick="alert('Feature coming soon')">Import Project</button>
+      <button onclick="alert('Templates coming soon')">Use a Template</button>
     </div>
   </main>
 
